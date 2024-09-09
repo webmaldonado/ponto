@@ -15,8 +15,10 @@ def DataHoraAtual():
 def RealizarPost() -> dict:
     url = "https://cliente.apdata.com.br/dicon/.net/index.ashx/SaveTimmingEvent"
 
-    usuario = '2600506'
-    senha = 'G@el170382X'
+    # usuario = '2600506'
+    # senha = 'G@el170382'
+    usuario = '9999999'
+    senha = '9999999'
 
     payload = {'deviceID': '8001',
                'eventType': '1',
