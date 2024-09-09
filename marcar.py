@@ -61,8 +61,8 @@ hora = datetime.now().hour
 
 print(f'{datetime.now()} - Adicionando um atrado de {atraso / 60} minutos')
 
-if hora != 19:
-    time.sleep(atraso)
+# if hora != 19:
+#     time.sleep(atraso)
 
 ret = RealizarPost()
 mensagem = ''
